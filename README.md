@@ -1,0 +1,22 @@
+##Inspiration
+What's something everyone wants to store in their lives forever? Your family, and what could get closer to achieving that goal other than having a family tree. We present thus present to you FamilyChain, a platform that allows you to store your family tree on the blockchain. We strongly believe that this product will be greatly helpful to everyone and specially to the youth so that they can get know how their family evolved over time throughout several decades. This also encourages the children with an incentive to learn more about their family's cultural heritage, and this is essential for everyone to grow as a responsible individual with a strong motive of giving back to the community.
+
+##What it does
+FamilyChain allows you to add pictures of yourself, your children, parents, and so on.... thus, building a family tree. Members have unique addresses assigned to them, which allows them to only edit their family tree on the BlockChain. All the elderly members of the family have access to the private codes which they temporarily give to the younger members, to update the details of their children and have full control of the blockchain. In this way, only the required members will gain access to avoid false information from being populated on the internet.
+
+##How we built it
+We integrated several features into the web application while adding many routes for the users to develop their family tree on the DeSo blockchain. FamilyChain allows users to add text and images of all the family members of their respective family. Initially we spent a lot of time integrating the DeSo block chain to our application. Once we were able to store the images securely on the blockchain, later we decide to devote our time to storing all the meta data in a database with a wide array of capabilities.
+
+Credits : https://github.com/DeSoDog/Social-App-Starter-Pack
+
+##Challenges we ran into
+We had been trying to utilize CockroachDB, by installing the npm packages that caused a few issues in our node modules. These complications took a long time to fix and resulted in us substituting cockroachDB for Firebase in order to make the web app work. Another issue we faced was in capturing the images back from the block-chain into the database. It took quite some time in integrating that all the pipelines for securely transferring the photo URL's into the database.
+
+##Accomplishments that we're proud of
+We are proud to say that we were able to contribute to a prominent Blockchain such as DeSo. We utilized our time strategically during our hackathon and all the team members assigned roles voluntarily based on their areas of expertise, and met in regular intervals to ensure that we are moving in the right direction by reviewing each other's work. This is the first hackathon where we were able to stay productive throughout the night even after attending multiple fun events such as cup stacking, etc. We were able to dive deep and understand the inner implementation of the blockchain in our application and gain practical hands-on experience.
+
+##What we learned
+We understood how to utilize the 24 hours as much as possible, by shifting our more important tasks for earlier in the day when the team's productivity is higher. We learnt to effectively break down the project into small bit sized tasks so that we can track our progress easily, and the feeling of completing small tasks provided us with the motivation to stay on the right pace in completing the project on time.
+
+##What's next for FamilyChain
+Currently, the website allows the present family members to update their ancestry relationships in the family tree when all the members of the family are in a close community. There might be several unforeseen circumstances whereby, someone's parent might have passed away unfortunately, however the child is inquisitive to know their cultural heritage and family lineage. Hence, we would like to setup a process whereby all the existing members of the family present in the block-chain can efficiently communicate with the new person to verify if he/she is a legit member, to recover the lost relationships. The child can also be emotionally satisfied with a sense of belonging by utilizing our application.
