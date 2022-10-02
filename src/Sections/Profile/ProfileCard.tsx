@@ -101,7 +101,7 @@ const FollowerDisplay = ({ followers, following }: FollowerInfo) => {
       <div className="flex flex-col justify-center py-2">
         <div className="flex justify-center">
           <textarea
-            placeholder="Following along with @TyFischer at the MLH workshop!"
+            placeholder=""
             value={post}
             onChange={(e: any) => {
               setPost(e.target.value);
@@ -151,7 +151,8 @@ const FollowerDisplay = ({ followers, following }: FollowerInfo) => {
               //     ImageURLs: [],
               //   },
               // });
-              setPost("");
+              setImages([])
+              setImageURLs([])
             }}
           />
           

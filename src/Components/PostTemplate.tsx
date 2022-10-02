@@ -24,9 +24,12 @@ export const PostsTemplate = ({ post, publicKey }: PostTemplateProps) => {
       <div className="flex">
         {publicKey && (
           <ProfilePic publicKey={post.PosterPublicKeyBase58Check} />
-        )}
+        )
+        }
+        {console.log(post.ImageURLs)}
         <div className="my-auto font-semibold">@{username}</div>
       </div>
+      <div className="ml-12"><img src={post.ImageURLs?post.ImageURLs[0]:""}></img></div>
       <div className="ml-12">{post.Body}</div>
       <div className="flex justify-around px-40">
         <div className="pt-4">Likes: {post.LikeCount}</div>
